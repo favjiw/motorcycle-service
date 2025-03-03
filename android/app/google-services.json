@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "796679683567",
+    "project_id": "motorcycle-service-192b7",
+    "storage_bucket": "motorcycle-service-192b7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796679683567:android:42312d1be5eafc3349ca1a",
+        "android_client_info": {
+          "package_name": "com.example.motorcycle_service"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6kalKtUeANKXAWFAulk_mKhwpjT5zRYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
