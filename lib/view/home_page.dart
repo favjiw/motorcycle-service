@@ -185,6 +185,41 @@ class _HomePageState extends State<HomePage> {
                       child: Text('See all', style: homeLabelLink,))
                 ],
               ),
+              ListView.builder(
+                physics: const NeverScrollableScrollPhysics(),
+                padding: EdgeInsets.zero,
+                shrinkWrap: true,
+                itemCount: 5,
+                itemBuilder: (context, snapshot) {
+                  return Column(
+                    children: [
+                      Container(
+                        padding: EdgeInsets.symmetric(horizontal: 10.w, vertical: 11.h),
+                        decoration: BoxDecoration(
+                          color: homeItemContainer,
+                          borderRadius: BorderRadius.circular(7.r),
+                        ),
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text('03 March 2025', style: homeItemDate,),
+                                SizedBox(height: 5.h,),
+                                Text('48.000 km', style: homeItemDistance,),
+                              ],
+                            ),
+                            Text('+ 100 km', style: homeItemDate,),
+                          ],
+                        ),
+                      ),
+                      SizedBox(height: 13.h,),
+                    ],
+                  );
+                }
+              ),
             ],
           ),
         ),
