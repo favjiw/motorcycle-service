@@ -11,6 +11,7 @@ Color blueContainer = HexColor('#2D336B');
 Color whiteOnContainer = HexColor('#FFF2F2');
 Color whiteButtonOnContainer = HexColor('#F5EFFF');
 Color yellowTextOnContainer = HexColor('#F5F4B3');
+Color homeItemContainer = HexColor('#F1F1F1');
 
 TextStyle authTitle = TextStyle(
   fontFamily: 'Inter',
@@ -127,4 +128,18 @@ TextStyle homeLabelLink  = TextStyle(
   fontWeight: FontWeight.w500,
   fontSize: 14.sp,
   color: blueButton,
+);
+
+TextStyle homeItemDate  = TextStyle(
+  fontFamily: 'Inter',
+  fontWeight: FontWeight.w500,
+  fontSize: 14.sp,
+  color: black,
+);
+
+TextStyle homeItemDistance  = TextStyle(
+  fontFamily: 'Inter',
+  fontWeight: FontWeight.w500,
+  fontSize: 16.sp,
+  color: black,
 );
